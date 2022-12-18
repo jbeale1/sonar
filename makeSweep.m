@@ -1,6 +1,11 @@
 # GNU Octave code to create a set of pulses for Sonar ranging
 # can create frequency sweep (pulse frequency changes in steps)
 # J.Beale 25-NOV-2020
+#
+# sudo apt install octave liboctave-dev
+#  ...and then from the Octave command line: 
+#     pkg install control -forge
+#     pkg install signal -forge
 
 pkg load signal                  # for butter() filter()
 
